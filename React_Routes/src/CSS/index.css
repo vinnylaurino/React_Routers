@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 body {
   margin: 0;
   padding: 0;
@@ -6,4 +7,22 @@ body {
 
 nav {
   height: 90px;
+  font-family: 'Raleway;', sans-serif;
+  background-color: #ccc;
+  padding-top: 20px;
+  text-align: center;
+}
+#nav li{
+  display: inline-block;
+  padding-right: 20px;
+
+}
+#nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #cc0066;
+}
+#nav a:hover{
+  color: #660033;
+  border-bottom: 5px #660033 solid;
 }
